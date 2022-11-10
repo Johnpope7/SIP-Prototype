@@ -5,6 +5,7 @@ using UnityEngine;
 public class PawnFrame : MonoBehaviour
 {
     #region Variables
+    [Header ("Components")]
     [SerializeField]
     GameObject skeleton;
     [SerializeField]
