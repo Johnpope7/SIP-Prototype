@@ -10,6 +10,11 @@ TagManager:
   - Right Arm
   - Legs
   - Skeleton
+  - Head Point
+  - Body Point
+  - Left Arm Point
+  - Right Arm Point
+  - Legs Point
   layers:
   - Default
   - TransparentFX

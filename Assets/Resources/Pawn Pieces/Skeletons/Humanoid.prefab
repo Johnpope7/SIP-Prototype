@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6926354125036601697}
   m_Layer: 0
   m_Name: LegsPoint
-  m_TagString: Untagged
+  m_TagString: Legs Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,6 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8194180784992715934}
+  - component: {fileID: 86252509350202080}
   m_Layer: 0
   m_Name: Humanoid
   m_TagString: Skeleton
@@ -65,6 +66,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86252509350202080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470119445280816288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8426fc32617224d44a688d533628528c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeleton: {fileID: 0}
+  head: {fileID: 0}
+  body: {fileID: 0}
+  leftArm: {fileID: 0}
+  rightArm: {fileID: 0}
+  legs: {fileID: 0}
 --- !u!1 &7429735005229729440
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +95,7 @@ GameObject:
   - component: {fileID: 4565061669316386407}
   m_Layer: 0
   m_Name: Head Point
-  m_TagString: Untagged
+  m_TagString: Head Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +125,7 @@ GameObject:
   - component: {fileID: 1980791667473734958}
   m_Layer: 0
   m_Name: RightArmPoint
-  m_TagString: Untagged
+  m_TagString: Right Arm Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +155,7 @@ GameObject:
   - component: {fileID: 7643258864177257907}
   m_Layer: 0
   m_Name: BodyPoint
-  m_TagString: Untagged
+  m_TagString: Body Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,7 +185,7 @@ GameObject:
   - component: {fileID: 8532042109945591266}
   m_Layer: 0
   m_Name: LeftArmPoint
-  m_TagString: Untagged
+  m_TagString: Left Arm Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
