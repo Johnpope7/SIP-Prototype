@@ -64,9 +64,11 @@ public class Assembler : MonoBehaviour
         legArray = Resources.LoadAll<GameObject>("Pawn Pieces");
         legList = allPartsArray.ToList();
     }
+    /*
     public GameObject Assemble() 
     { 
-     //new GameObject Humanoid = Instantiate()
+     new GameObject Humanoid = Instantiate()
     }
+    */
     #endregion
 }
